@@ -54,8 +54,16 @@ const scrollActive = () =>{
 	})
 }
 window.addEventListener('scroll', scrollActive)
-/*=============== SHOW SCROLL UP ===============*/ 
 
+
+/*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp = () =>{
+    const scrollUp = document.getElementById('scroll-up')
+    // when the scroll is hiigher than 350 vh, add show-scroll class
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+                        : scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 
