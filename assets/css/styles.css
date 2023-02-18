@@ -873,6 +873,13 @@ img {
   .nav__menu{
     width: 50%;
   }
+
+  .home__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
+
+
 
 /* For large devices */
