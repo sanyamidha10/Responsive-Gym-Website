@@ -63,8 +63,8 @@
   margin: 0;
 }
 
-html, body {
-  scroll-behavior: smooth !important;
+html {
+  scroll-behavior: smooth;
 }
 
 body,
